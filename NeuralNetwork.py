@@ -39,5 +39,12 @@ model.add(Dense(512, activation="relu"))
 model.add(Dropout(0.50))
 model.add(Dense(10, activation="softmax"))
 
+# Compile the model
+model.compile(
+    loss="categorical_crossentropy",
+    optimizer="adam",
+    metrics=["accuracy"]
+)
+
 # Print a summary of the object
 model.summary()
