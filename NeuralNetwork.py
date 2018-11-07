@@ -55,3 +55,11 @@ model.fit(
     validation_data=(x_test, y_test),
     shuffle=True
           )
+
+# Save the neural network structure
+model_structure = model.to_json()
+f = Path("model_structure.json")
+f.write_text(model_structure)
+
+# Save Neural's network trained weight
+model.sample_weights("model_weights.h5")
