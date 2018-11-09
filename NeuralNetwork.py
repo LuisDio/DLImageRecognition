@@ -62,4 +62,4 @@ f = Path("model_structure.json")
 f.write_text(model_structure)
 
 # Save Neural's network trained weight
-model.sample_weights("model_weights.h5")
+model.save_weights("model_weights.h5")
