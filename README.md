@@ -13,6 +13,5 @@ Keras
 First we will install `python 3.6.6`.
 # Python 3
 Download python from the python website `www.python.org`.
-
 Go to the download page, scroll down to the specific python version `Python 3.6.6` or higher and click download.
 
